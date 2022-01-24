@@ -23,5 +23,12 @@ blogdown::serve_site()
 
 blogdown::stop_server()
 
+
+blogdown::check_site()
 blogdown::check_config()
 blogdown::check_gitignore()
+
+
+## Add psots 
+blogdown::new_post(title = "navbar icons")
+
