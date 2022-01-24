@@ -17,7 +17,8 @@ blogdown::hugo_version()
 ## Create site
 blogdown::new_site(theme = "yihui/hugo-lithium")
 
-blogdown::install_theme(theme = "yihui/hugo-xmin", force = T, update_config = T)
+## Re-initialize theme
+blogdown::install_theme(theme = "yihui/hugo-lithium", force = T, update_config = T)
 
 blogdown::serve_site()
 
@@ -30,5 +31,6 @@ blogdown::check_gitignore()
 
 
 ## Add psots 
-blogdown::new_post(title = "navbar icons")
+blogdown::new_post(title = "Navbar icons")
+blogdown::new_post(title = "Blogdown in early 2022 - part1")
 
