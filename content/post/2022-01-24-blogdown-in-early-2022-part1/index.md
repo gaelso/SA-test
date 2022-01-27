@@ -190,7 +190,7 @@ Alison "Up and running with blogdown in 2021" configuration section was specific
 
 Lithium `config.yaml` file content looks like this:
 
-```md
+```
 baseurl: /
 languageCode: en-us
 title: A Hugo website
@@ -238,7 +238,7 @@ markup:
 
 And Xmin's:
 
-```md
+```
 baseurl: "/"
 languageCode: "en-us"
 title: "A minimal Hugo website"
@@ -296,117 +296,87 @@ To adapt Lithium to my goals, I needed to edit the menu entries to have [Home], 
 
 Now is a good time to read blogdown book [chapter 2](https://bookdown.org/yihui/blogdown/hugo.html), especially the sections on [content](https://bookdown.org/yihui/blogdown/content.html#content), [template](https://bookdown.org/yihui/blogdown/templates.html#templates) (or layout as it refers to themes subfolder layout) and [custom layout](https://bookdown.org/yihui/blogdown/custom-layouts.html#custom-layouts) (note to myself to keep these links up-to-date). To best understand how files are structured in the Hugo themes, let's have a look at the `/exampleSite/`, `/layout/` and `/static/` directories under each theme. They are located in `/themes/hugo-themename`. 
 
-**Note**: DO NOT edit the files under in the `/themes/` directory. If the theme is updated or if somehow you broke it too much and need to re-install you will lose of your changes. Instead notice that these folders are also present in your root directory, no matter what theme you chose. This is the content of a standard root directory:
 
-```md
+<!-- Start note -->
+<div class="notebox"> 
+
+<span style="color:#2167ba;font-weight:bold;">Note</span>: DO NOT edit the files under in the `/themes/` directory. If the theme is updated or if somehow you broke it too much and need to re-install you will lose of your changes. Instead notice that these folders are also present in your root directory, no matter what theme you chose. This is the content of a standard root directory:
+
+<pre style="padding:0.5em">
 +-- config.yaml
-+-- **content**
-+-- index.Rmd
-+-- **layouts**
-+-- netlify.toml
-+-- public
-+-- R
-+-- R-setup.R
-+-- README.md
-+-- resources
-+-- SA-test.Rproj
-+-- **static**
++-- <b>content</b>
+|   \-- ...
++-- <b>layouts</b>
+|   \-- ...
++-- <b>static</b>
+|   \-- css
+|       \-- ...
++-- ...
 \-- themes
-```
+    \-- ...
+</pre>
 
-You can see that `/content/`, `/layout/` and `/statics/` directories are there. {blogdown} intelligently looks for information in these folders first and then complement with the information in the `/themes/` sub-folders. For example to add a post, you should place it under `/content/` and NOT under `/themes/hugo-themename/exampleSite/content/`. Another example, when you just installed a theme, the `/layout/` folder should be empty, meaning all the layout info is under the theme sub-folder `/themes/hugo-themename/layout/`. If you want to modify one of the file, copy it to `/layout/` 
+You can see that `/content/`, `/layout/` and `/statics/` directories are there. {blogdown} intelligently looks for information in these folders first and then complement with the information in the `/themes/` sub-folders. For example to add a post, you should place it under `/content/` and NOT under `/themes/hugo-themename/exampleSite/content/`. Another example, when you just installed a theme, the `/layout/` folder should be (almost) empty, meaning all the layout info is under the theme sub-folder `/themes/hugo-themename/layout/`. If you want to modify one of the file, copy it to `/layout/` and edit.   
+
+</div>
+<!-- End note -->
+
 
 For Lithium, the theme content looks like this:
 
-```md
+<pre style="padding:0.5em">
 themes/hugo-lithium
-+-- archetypes
-|   \-- default.md
-+-- **exampleSite**
++-- <b>exampleSite</b>
 |   +-- config.toml
 |   +-- content
 |   |   +-- about.md
 |   |   \-- post
-|   |       +-- 2015-01-01-lorem-ipsum
-|   |       |   \-- index.md
-|   |       \-- 2016-12-30-hello-markdown
-|   |           \-- index.md
-|   \-- static
-+-- **layouts**
+|   |       \-- ...
+|   \-- ...
++-- <b>layouts</b>
 |   +-- partials
-|   |   +-- disqus.html
-|   |   +-- footer.html
-|   |   +-- footer_highlightjs.html
-|   |   +-- footer_mathjax.html
-|   |   +-- head.html
-|   |   +-- header.html
-|   |   +-- head_custom.html
-|   |   +-- head_highlightjs.html
-|   |   \-- nav.html
+|   |   \-- ...
 |   \-- _default
-|       +-- list.html
-|       \-- single.html
-+-- LICENSE.md
-+-- README.md
-+-- **static**
-|   +-- css
-|   |   +-- fonts.css
-|   |   \-- main.css
-|   +-- favicon.ico
-|   +-- fonts
-|   |   +-- lato-v11-latin-regular.woff
-|   |   +-- lato-v11-latin-regular.woff2
-|   |   +-- merriweather-v13-latin-regular.woff
-|   |   \-- merriweather-v13-latin-regular.woff2
-|   +-- images
-|   |   +-- hugo-logo.png
-|   |   \-- logo.png
-|   \-- js
-|       \-- math-code.js
-\-- theme.toml
-```
+|       \-- ...
++-- <b>static</b>
+|   \-- ...
+\-- ...
+</pre>
 
 And for the Xmin theme, the information is structured like this:
 
-```md
+<pre style="padding:0.5em">
 themes/hugo-xmin
-+-- archetypes
-|   \-- default.md
-+-- **exampleSite**
++-- <b>exampleSite</b>
 |   +-- config.yaml
 |   +-- content
 |   |   +-- about.md
 |   |   +-- note
-|   |   |   +-- 2017-06-13-a-quick-note.md
-|   |   |   \-- 2017-06-14-another-note.md
+|   |   |   \-- ...
 |   |   +-- post
-|   |   |   +-- 2015-07-23-lorem-ipsum.md
-|   |   |   \-- 2016-02-14-hello-markdown.md
+|   |   |   \-- ...
 |   |   +-- _index.markdown
 |   |   \-- _index.Rmarkdown
 |   \-- layouts
 |       \-- partials
 |           \-- foot_custom.html
-+-- **layouts**
++-- <b>layouts</b>
 |   +-- 404.html
 |   +-- partials
-|   |   +-- footer.html
-|   |   +-- foot_custom.html
-|   |   +-- header.html
-|   |   \-- head_custom.html
+|   |   \-- ...
 |   \-- _default
-|       +-- list.html
-|       +-- single.html
-|       \-- terms.html
-+-- LICENSE.md
-+-- README.md
-+-- **static**
-|   \-- css
-|       +-- fonts.css
-|       \-- style.css
-\-- theme.toml
-```
+|       \-- ...
++-- <b>static</b>
+|   \-- ...
+\-- ...
+</pre>
 
+<br>
+
+**`/content/`**
+
+
+Let's check the details of the
 As mentioned in the previous section, the 
 
 - Don't touch the theme subfolder.

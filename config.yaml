@@ -34,8 +34,9 @@ params:
   logo:
     alt: Logo
     height: 50
-    url: logo.png
+    url: img/logo-SA-final.svg
     width: 50
+customCSS: css/style.css
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

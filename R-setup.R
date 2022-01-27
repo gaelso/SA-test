@@ -34,3 +34,7 @@ blogdown::check_gitignore()
 blogdown::new_post(title = "Navbar icons")
 blogdown::new_post(title = "Blogdown in early 2022 - part1")
 
+blogdown::new_post(title = "Pimp my blogdown (hugo-lithium)")
+
+
+
