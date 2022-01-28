@@ -1,22 +1,47 @@
 
-/* Note */
 
+/* First word */
+.first-word {
+  float: left;
+  color: #97caef;
+  font-weight: bold;
+  font-size: 6em;
+  line-height: 0.75;
+  padding: 0.1em;
+  margin-bottom: -0.1em;
+}
+
+
+/* Note box */
 .notebox {
   padding: 1em;
-  border: 4px solid #97caef;
+  border: 4px solid #44ede4;
   border-radius: 10px;
-  /*background-color: #cafefe;*/
+  background-image: linear-gradient(to bottom right, #cafefe, #f5f5f5);
   margin-bottom: 1.2em;
   margin-top: 1.2em;
 }
 
-
-/* Explicit background color for code */
-
-pre, code {
-  background-color: #f5f5f5;
+.nb-title {
+  color: #44ede4;
+  font-weight: bold;
 }
 
+/* Custom <hr> */
+.article-content hr {
+  background-color: #fc4445;
+  height: 2px;
+}
+
+/* Explicit background color for code */
+pre, code {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Page background color */
+body {
+  background-image: linear-gradient(to bottom right, #f5f5f5, #cafefe) /* #ffffff */
+}
 
 /* smaller images in posts*/
 .post-img {
@@ -25,4 +50,23 @@ pre, code {
   margin-right: auto;
   max-width: 80%;
   border: 2px solid #808080;
+}
+
+/* Edit logo css */
+
+.nav-logo {
+  float: left;
+  margin-top: -20px; /* -11px Increase to match logo of 60 px */
+  transition: transform 150ms ease-out;
+}
+
+.nav-logo:hover {
+  transform: scale(1.1);
+}
+
+.nav-logo img {
+  display: block;
+  max-height: 60px; /* 40px */
+  width: auto;
+  border-radius: 0%; /* 50% */
 }
