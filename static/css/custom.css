@@ -1,36 +1,46 @@
 
 
-/* First word */
-.first-word {
+/* First letter */
+.first-letter {
   float: left;
-  color: #97caef;
+  color: #ffbf59;
   font-weight: bold;
   font-size: 6em;
-  line-height: 0.75;
-  padding: 0.1em;
+  line-height: 0.86;
   margin-bottom: -0.1em;
+  margin-left: -0.06em;
 }
 
 
 /* Note box */
 .notebox {
   padding: 1em;
-  border: 4px solid #44ede4;
+  border: 4px solid #5999ff;
   border-radius: 10px;
-  background-image: linear-gradient(to bottom right, #cafefe, #f5f5f5);
+  background-color: rgba(89, 153, 255, 0.1);
   margin-bottom: 1.2em;
   margin-top: 1.2em;
 }
 
 .nb-title {
-  color: #44ede4;
+  color: #5999ff;
   font-weight: bold;
 }
 
 /* Custom <hr> */
 .article-content hr {
-  background-color: #fc4445;
+  background-color: #ffbf59;
   height: 2px;
+}
+
+/* Align .content with .nav */
+
+.nav {
+ max-width: 800px; 
+}
+
+.content {
+  max-width: 800px;
 }
 
 /* Explicit background color for code */
@@ -38,10 +48,12 @@ pre, code {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* Page background color */
+/* Page background color
 body {
-  background-image: linear-gradient(to bottom right, #f5f5f5, #cafefe) /* #ffffff */
+  background-image: linear-gradient(to bottom right, #fff, #eae7dc)
+  background-color: #eae7dc;
 }
+*/
 
 /* smaller images in posts*/
 .post-img {
