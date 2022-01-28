@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-<span class="first-word">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain the few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
+<span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain the few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
 
 <!-- Note box -->
 <div class="notebox">
@@ -37,9 +37,9 @@ I developed the initial version of my personal website with a these goals regard
 
 It took me a couple of days to have it up and running and my main findings were:
 
-1. With the `{blogdown}` [book](https://bookdown.org/yihui/blogdown/), Alison Hill's [post](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/) and [github](https://github.com/apreshill) repository, I could make it work!
-1. Early 2022 is not the best time to start using blogdown as the documentation is catching up with the tools' evolution. I would recommend to start with a simple theme and stay tuned for awesome themes being developed by the `{blogdown}` book authors and the R community (see [Hugo Apéro](https://hugo-apero.netlify.app/)). The Lithium theme looks simple but easy to customize.
-1. my tweaks:  
+- With the `{blogdown}` [book](https://bookdown.org/yihui/blogdown/), Alison Hill's [post](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/) and [github](https://github.com/apreshill) repository, I could make it work!
+- Early 2022 is not the best time to start using blogdown as the documentation is catching up with the tools' evolution. I would recommend to start with a simple theme and stay tuned for awesome themes being developed by the `{blogdown}` book authors and the R community (see [Hugo Apéro](https://hugo-apero.netlify.app/)). The Lithium theme looks simple but easy to customize.
+- my tweaks:  
     + change the logo and favicon,
     + modify the navigation bar,
     + reorganize the blog posts in a [Blog] page,
@@ -76,13 +76,13 @@ Thanks to the Rstudio crew and the larger R community, teaching R and motivating
 
 <!-- Key concept -->
 
-<hgr> 
+<hr> 
 
 ## A few key concepts
 
 ### Read these 
 
-In my research for creating a website with `{blogdown}`, I found the best entry points were Yihui's [`{blogdown}` book](https://bookdown.org/yihui/blogdown/) and Alison Hill's blog (this [post](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/) in particular). They were both slightly outdated, but 90% of what you need to know is there and Alison post had the best tutorial for creating your website and deploy it with R, Rstudio, Github and Netlify. 
+In my research for creating a website with `{blogdown}`, I found the best entry points were Yihui's [`{blogdown}` book](https://bookdown.org/yihui/blogdown/) and Alison Hill's blog (this [post](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/) in particular). They were both slightly outdated, but 90% of what you need to know is there and Alison's post had the best tutorial for creating your website and deploy it with R, Rstudio, Github and Netlify. 
 
 However, note that the post was based on the Hugo theme [`wowchemy/starter-academic`](https://github.com/wowchemy/starter-hugo-academic) and this theme was not fully compatible with `{blogdown}` as of early 2022. The organization behind the theme recommended its own method for installing the theme. See this issue [638](https://github.com/rstudio/blogdown/issues/638) on `{blogdown}` Github repo and Yihui's comment:
 
@@ -95,7 +95,6 @@ However, note that the post was based on the Hugo theme [`wowchemy/starter-acade
 
 In a few messages and repositories on Github, it seemed that the recommended Hugo theme has become [Hugo Apéro](https://github.com/hugo-apero). This theme looked amazing, I loved the name and the style, and its documentation was already very complete. If you are looking for a website that works well, looks nice right off the bat and you are not interesting in a tweaking the theme a lot, this is the theme for you.
 
-[![](img/hugo-apero.png)](https://hugo-apero.netlify.app/)
 
 <div class="post-img"> 
   <a href="https://hugo-apero.netlify.app/">
@@ -103,18 +102,18 @@ In a few messages and repositories on Github, it seemed that the recommended Hug
   </a>
 </div>
 
+<br>
+
 If, like me, you prefer to start with a simpler theme to understand better how themes work and how to customize them, the first two themes developed by Yihui might be better suited: [hugo-xmin](https://github.com/yihui/hugo-xmin) and [hugo-lithium](https://github.com/yihui/hugo-lithium). Both themes are maintained by the `{blogdown}` main developer so there should be around for a while. Xmin layout files are well explained in the book's [template section](https://bookdown.org/yihui/blogdown/templates.html). With the logo and tab icon already included, I chose the lithium theme to tweak to my desired website.
 
 
-[![](img/hugo-lithium.png)](https://github.com/yihui/hugo-lithium)
-
 <div class="post-img"> 
-  <a href="https://hugo-apero.netlify.app/">
+  <a href="https://github.com/yihui/hugo-lithium">
     <img src="img/hugo-lithium.png" alt="Hugo Lithium">
   </a>
 </div>
 
-
+<br>
 
 ### Don't touch the `/themes/` subfolders
 
