@@ -34,7 +34,7 @@ params:
   logo:
     alt: Logo
     height: 80
-    url: logo-tree-txt-final.svg
+    url: logo-tree-txt-flat.svg #logo-tree-txt-final.svg
     width: 80
 markup:
   defaultMarkdownHandler: goldmark
