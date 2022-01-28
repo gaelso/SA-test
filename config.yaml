@@ -24,7 +24,7 @@ params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: A website built through Hugo and blogdown.
-  favicon: favicon.ico
+  # favicon: logo-tree-final.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r
@@ -33,10 +33,9 @@ params:
   highlightjsVersion: 9.12.0
   logo:
     alt: Logo
-    height: 50
-    url: img/logo-SA-final.svg
-    width: 50
-customCSS: css/style.css
+    height: 80
+    url: logo-tree-txt-final.svg
+    width: 80
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
