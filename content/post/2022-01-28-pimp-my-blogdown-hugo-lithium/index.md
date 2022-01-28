@@ -7,13 +7,18 @@ categories: []
 tags: []
 ---
 
-Hi! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain the few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
+<span class="first-word">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain the few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
 
-A few conventions to make the text easier to read:  
-- Package name are surrounded by `{}`, for example `{blogdown}`.
-- Code or elements of code such as variables are formatted as code, for example `menu` entry in the `config.yaml` file.
-- File names are formatted as code too, but can be easily identified by their extension, for example `config.yaml`. To avoid confusion between variable names and file names, word separators in variable names is always `"_"`. For example, `my_variable` is a variable while `my_file.ext` is a file.  
-- Directories are formatted as code surrounded by `"/"` and preceded by their path to the website root directory, for example with Blogdown, markdown and Rmarkdown content is in the `/content/` folder and posts are in the `/content/post/` sub-folder.
+<!-- Note box -->
+<div class="notebox">
+
+<span class="nb-title">A few naming conventions</span> to make the text formatted as code easier to read:  
+- `{packagenames}` are surrounded by "`{}`", ex. `{blogdown}`.
+- `variable_names` have no punctuation except "`_`" as word separator, ex. the `menu` entry in the configuration file.
+- `file.names` are presented with their extension, ex. `config.yaml`.
+- `/directory names/` are surrounded by "`/`" and preceded by their path to the website root directory, ex. `/content/post/`.
+
+</div>
 
 
 
@@ -36,7 +41,8 @@ It took me a couple of days to have it up and running and my main findings were:
 1. Early 2022 is not the best time to start using blogdown as the documentation is catching up with the tools' evolution. I would recommend to start with a simple theme and stay tuned for awesome themes being developed by the `{blogdown}` book authors and the R community (see [Hugo Apéro](https://hugo-apero.netlify.app/)). The Lithium theme looks simple but easy to customize.
 1. my tweaks:  
     + change the logo and favicon,
-    + modify navigation bar entries,
+    + modify the navigation bar,
+    + reorganize the blog posts in a [Blog] page,
     + add CSS class to add boxes to my posts,
     + add Font Awesome icons to the Navbar and markdown files,
     + add an animated background via CSS,
@@ -118,7 +124,7 @@ While reading the `{blogdown}` you can see that the default content and setup ar
 
 - Lithium default CSS is in `/themes/hugo-lithium/static/css`, but add your own CSS in a file (for example `custom.css`) in this directory: `static/css/custom.css`. Some themes allow you to read your CSS with a entry in `config.yaml`, for other themes (including Lithium) you will need to add the path directly in the layout HTML files. (See CSS tweaks below).
 
-- Place images in `/static/images/`. Lithium will find your logo automatically there with just the logo file name in `config.yaml`, other themes may need you to specify `images/your-logo.png`. For other images in your main pages (not your posts) you will need to specify `![](images/your-image.png)`   
+- Place your posts' images in your post sub-folders. Specific to Lithium, place your logo in `/static/images/`. The layout will find your logo automatically there, with just the logo file name in `config.yaml`. Note that for main pages like [About], if you want to add images, you need to create the sub-directory `content/about/`, then rename `about.md` to `index.md` and move it in the sub-directory with your images.
 
 
 
