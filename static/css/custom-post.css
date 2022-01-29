@@ -2,7 +2,7 @@
 /* First letter */
 .first-letter {
   float: left;
-  color: #ffbf59;
+  color: var(--cont);
   font-weight: bold;
   font-size: 6em;
   line-height: 0.86;
@@ -13,21 +13,21 @@
 /* Note box */
 .notebox {
   padding: 1em;
-  border: 4px solid #5999ff;
+  border: 4px solid var(--main);
   border-radius: 10px;
-  background-color: rgba(89, 153, 255, 0.1);
+  background-color: var(--main-bg);
   margin-bottom: 1.2em;
   margin-top: 1.2em;
 }
 
 .nb-title {
-  color: #5999ff;
+  color: var(--main);
   font-weight: bold;
 }
 
 /* Custom <hr> */
 .article-content hr {
-  background-color: #ffbf59;
+  background-color: var(--cont);
   height: 2px;
 }
 

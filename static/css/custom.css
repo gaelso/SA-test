@@ -1,12 +1,12 @@
 :root {
-  --bg1: #1e90ff;
-  --bg2: #ffffff;
-  --bg-uni: 
-  --pg-uni
-  --font: #333
-  --main:
-  --contrast:
-  --analogous:
-  
+  --bg1: #f5f5f5;
+  --bg2: #86cfd6;
+  --uni: #f5f5f5;
+  --txt: #333;
+  --main: #3b83bc;
+  --cont: #ffc582;
+  --alike: #3cb5b8;
+  --main-bg: rgba(59, 131, 188, 0.1);
+  --shadow: 0px 10px 20px rgba(59, 131, 188, 0.5);
 }
 
