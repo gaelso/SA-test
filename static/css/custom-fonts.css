@@ -112,10 +112,10 @@
 }
 
 
-body {
+body, .article-duration {
   font-family: 'Noto Sans', Sans-Serif;
 }
-h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer {
+
+h1, h2, h3, h4, h5, h6, .nav, .archive-item-link, .footer {
   font-family: 'Space Mono', Monospace;
-  color: #67c1c3;
 }

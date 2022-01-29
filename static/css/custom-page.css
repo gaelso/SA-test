@@ -1,0 +1,60 @@
+
+/* Align .content with .nav */
+
+.nav {
+ max-width: 800px; 
+}
+
+.content {
+  max-width: 800px;
+}
+
+
+/* Page background color
+body {
+  background-image: linear-gradient(to bottom right, #fff, #eae7dc)
+  background-color: #eae7dc;
+}
+*/
+
+/* dark theme
+body {
+  background-image: linear-gradient(to bottom right, #1F2833, #0B0C10)
+}
+
+.content {
+  color: #c5c6c7 ;
+}
+*/ 
+
+.nav-links a {
+  text-decoration: none;
+  color: #67c1c3;
+}
+
+.nav-links a:hover {
+  color: #5999ff;
+}
+
+.article-title {
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #67c1c3;
+}
+
+.content, {
+  color: #333 ;
+}
+
+.article-duration {
+  margin-top: 12px;
+  float: right;
+  font-size: 12px;
+  padding: 1px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
