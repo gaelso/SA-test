@@ -36,22 +36,10 @@
   <defs
      id="defs2">
     <rect
-       x="369.94895"
-       y="189.03985"
-       width="392.3085"
-       height="317.0991"
-       id="rect217704" />
-    <rect
-       x="1097.6507"
-       y="451.25641"
-       width="10.163433"
-       height="52.84985"
-       id="rect212012" />
-    <rect
        x="526.46581"
        y="345.55671"
-       width="1215.5466"
-       height="304.20758"
+       width="575.25029"
+       height="142.28806"
        id="rect159787" />
     <meshgradient
        inkscape:collect="always"
@@ -183,13 +171,8 @@
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
-       id="text212010"
-       style="line-height:1.25;font-family:Lora;font-size:40px;-inkscape-font-specification:Lora;text-align:center;white-space:pre;shape-inside:url(#rect212012)" />
-    <text
-       xml:space="preserve"
-       transform="scale(0.26458333)"
-       id="text217702"
-       style="line-height:1.25;font-family:Lora;font-size:40px;-inkscape-font-specification:Lora;text-align:center;white-space:pre;shape-inside:url(#rect217704)" />
+       id="text159785"
+       style="line-height:1.25;font-family:Lora;font-size:40px;-inkscape-font-specification:Lora;text-align:center;white-space:pre;shape-inside:url(#rect159787)" />
   </g>
   <script
      id="mesh_polyfill"
