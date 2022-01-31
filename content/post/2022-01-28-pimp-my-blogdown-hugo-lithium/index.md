@@ -9,17 +9,6 @@ tags: []
 
 <span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain the few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
 
-<!-- Note box -->
-<div class="notebox">
-
-<span class="nb-title">A few naming conventions</span> to make the text formatted as code easier to read:  
-- `{packagenames}` are surrounded by "`{}`", ex. `{blogdown}`.
-- `variable_names` have no punctuation except "`_`" as word separator, ex. the `menu` entry in the configuration file.
-- `file.names` are presented with their extension, ex. `config.yaml`.
-- `/directory names/` are surrounded by "`/`" and preceded by their path to the website root directory, ex. `/content/post/`.
-
-</div>
-
 
 
 <!-- Summary -->
@@ -54,6 +43,17 @@ It took me a couple of days to have it up and running and my main findings were:
 <hr>
 
 ## Before we start
+
+<!-- Note box -->
+<div class="notebox">
+
+<span class="nb-title">A few naming conventions</span> to make the text formatted as code easier to read:  
+- `{packagenames}` are surrounded by "`{}`", ex. `{blogdown}`.
+- `variable_names` have no punctuation except "`_`" as word separator, ex. the `menu` entry in the configuration file.
+- `file.names` are presented with their extension, ex. `config.yaml`.
+- `/directory names/` are surrounded by "`/`" and preceded by their path to the website root directory, ex. `/content/post/`.
+
+</div>
 
 I wanted to have my own website for a lonnnng time and I finally had a little free time this January (2022) before going back to work. I am fairly good with [`{rmarkdown}`]() and [`{bookdown}`]() and this was the time to give [`{blogdown}`]() a try!
 
