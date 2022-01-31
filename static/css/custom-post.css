@@ -13,11 +13,13 @@
 /* Note box */
 .notebox {
   padding: 1em;
-  border: 4px solid var(--main);
+  border: 4px solid var(--box);
   border-radius: 10px;
-  background-color: var(--main-bg);
+  background-color: var(--box-bg);
   margin-bottom: 1.2em;
   margin-top: 1.2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .nb-title {

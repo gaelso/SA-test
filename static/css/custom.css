@@ -1,12 +1,14 @@
 :root {
-  --bg1: #f5f5f5;
-  --bg2: #86cfd6;
-  --uni: #f5f5f5;
+  --main: #3b83bc;        /* rgba( 59, 131, 188, 1) */
+  --main-light: #74a5d2;  /* rgba(116, 165, 210, 1) */
+  --alike: #3cb5b8;       /* rgba( 60, 181, 184, 1) */
+  --alike-light: #86cfd6; /* rgba(134, 207, 294, 1) */
+  --cont: #ffc582;        /* rgba(255, 197, 130, 1) */
+  --cont-light: #ffd7b0;  /* rgba(255, 215, 176, 1) */
+  --bg: #f5f5f5;
   --txt: #333;
-  --main: #3b83bc;
-  --cont: #ffc582;
-  --alike: #3cb5b8;
-  --main-bg: rgba(59, 131, 188, 0.1);
-  --shadow: 0px 10px 20px rgba(59, 131, 188, 0.5);
+  --box: var(--main-light);
+  --box-bg: rgba(116, 165, 210, 0.1);
+  --shadow: 5px 10px 20px var(--main-light);
 }
 

@@ -24,15 +24,16 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.49195977"
-     inkscape:cx="830.35245"
-     inkscape:cy="411.61902"
+     inkscape:cx="848.64663"
+     inkscape:cy="438.04395"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="1072"
      inkscape:window-y="409"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     units="px" />
+     units="px"
+     showguides="false" />
   <defs
      id="defs2">
     <rect
@@ -145,34 +146,124 @@
        id="rect876"
        width="71.64341"
        height="20.811001"
-       x="-6.2110119"
-       y="-25.261168" />
+       x="0.0500005"
+       y="-20.761" />
+    <rect
+       style="fill:#ffd7b0;fill-opacity:1;stroke:#fc4445;stroke-width:0.0999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       id="rect876-7"
+       width="71.64341"
+       height="20.811001"
+       x="71.693413"
+       y="-20.761" />
     <rect
        style="fill:#3cb5b8;fill-opacity:1;stroke:#fc4445;stroke-width:0.0999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
        id="rect60464"
        width="71.64341"
        height="20.811001"
-       x="137.07581"
-       y="-25.261168" />
+       x="286.62363"
+       y="-20.761" />
+    <rect
+       style="fill:#86cfd6;fill-opacity:1;stroke:#fc4445;stroke-width:0.0999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       id="rect60464-8"
+       width="71.64341"
+       height="20.811001"
+       x="358.26703"
+       y="-20.761" />
     <rect
        style="fill:#3b83bc;fill-opacity:1;stroke:#fc4445;stroke-width:0.0999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
        id="rect60466"
        width="71.64341"
        height="20.811001"
-       x="65.432396"
-       y="-25.261168" />
+       x="143.33682"
+       y="-20.761" />
+    <rect
+       style="fill:#74a5d2;fill-opacity:1;stroke:#fc4445;stroke-width:0.0999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
+       id="rect60466-2"
+       width="71.64341"
+       height="20.811001"
+       x="214.98024"
+       y="-20.761" />
     <rect
        style="fill:url(#meshgradient75429);fill-opacity:1;stroke:#fc4445;stroke-width:0.100001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
        id="rect64069"
        width="507.89999"
        height="285.64999"
        x="0.0500005"
-       y="0.0500005" />
+       y="0.0500005"
+       inkscape:export-filename="D:\github-repos\SA-test\content\bg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text159785"
        style="line-height:1.25;font-family:Lora;font-size:40px;-inkscape-font-specification:Lora;text-align:center;white-space:pre;shape-inside:url(#rect159787)" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777778px;line-height:1.25;font-family:Lora;-inkscape-font-specification:Lora;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="394.7562"
+       y="-5.9159636"
+       id="text14855"><tspan
+         sodipodi:role="line"
+         id="tspan14853"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display Medium';stroke-width:0.264583;font-size:9.87777778px"
+         x="394.7562"
+         y="-5.9159636">86cfd6ff</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:Lora;-inkscape-font-specification:Lora;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="318.90469"
+       y="-5.429358"
+       id="text14855-8"><tspan
+         sodipodi:role="line"
+         id="tspan14853-5"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display Medium';stroke-width:0.264583"
+         x="318.90469"
+         y="-5.429358">3cb5b8ff</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:Lora;-inkscape-font-specification:Lora;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="251.67783"
+       y="-4.3537292"
+       id="text14855-2"><tspan
+         sodipodi:role="line"
+         id="tspan14853-4"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display Medium';stroke-width:0.264583"
+         x="251.67783"
+         y="-4.3537292">74a5d2ff</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:Lora;-inkscape-font-specification:Lora;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="178.53499"
+       y="-4.8915443"
+       id="text14855-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan14853-4-7"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display Medium';stroke-width:0.264583"
+         x="178.53499"
+         y="-4.8915443">3b83bcff</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:Lora;-inkscape-font-specification:Lora;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="111.30813"
+       y="-4.8915443"
+       id="text14855-2-0-8"><tspan
+         sodipodi:role="line"
+         id="tspan14853-4-7-0"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display Medium';stroke-width:0.264583"
+         x="111.30813"
+         y="-4.8915443">ffd7b0ff</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1.25;font-family:Lora;-inkscape-font-specification:Lora;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="39.240913"
+       y="-4.8915443"
+       id="text14855-2-0-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan14853-4-7-0-5"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans Display';-inkscape-font-specification:'Noto Sans Display Medium';stroke-width:0.264583"
+         x="39.240913"
+         y="-4.8915443">ffc582ff</tspan></text>
   </g>
   <script
      id="mesh_polyfill"
