@@ -15,10 +15,10 @@ blogdown::hugo_version()
 
 
 ## Create site
-blogdown::new_site(theme = "yihui/hugo-lithium")
+#blogdown::new_site(theme = "yihui/hugo-lithium")
 
 ## Re-initialize theme
-blogdown::install_theme(theme = "yihui/hugo-lithium", force = T, update_config = T)
+#blogdown::install_theme(theme = "yihui/hugo-lithium", force = T, update_config = T)
 
 blogdown::serve_site()
 
