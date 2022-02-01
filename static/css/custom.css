@@ -6,7 +6,8 @@
   --cont: #ffc582;        /* rgba(255, 197, 130, 1) */
   --cont-light: #ffd7b0;  /* rgba(255, 215, 176, 1) */
   --bg: #f5f5f5;
-  --bg-img:url("/bg-light.png");
+  --bg-img: url("/bg-light.png");
+  --bg-content :rgba(245, 245, 245, 0.9);
   --txt: #333;
   --box: var(--main-light);
   --box-bg: rgba(116, 165, 210, 0.1);
