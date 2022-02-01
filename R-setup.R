@@ -6,7 +6,7 @@
 ## Project created with version control, see https://happygitwithr.com/
 
 #devtools::install_github("rstudio/blogdown")
-#blogdown::install_hugo()
+#blogdown::install_hugo("0.92.0")
 
 library(blogdown)
 
@@ -28,6 +28,11 @@ blogdown::stop_server()
 blogdown::check_site()
 blogdown::check_config()
 blogdown::check_gitignore()
+
+
+## Build site to publish on OVH
+blogdown::build_site(local = T)
+
 
 
 ## Add psots 
