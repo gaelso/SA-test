@@ -74,7 +74,7 @@ Thanks to the Rstudio crew and the larger R community, teaching R and motivating
 
 
 
-<!-- Key concept -->
+<!-- Key concepts -->
 
 <hr> 
 
@@ -121,10 +121,39 @@ While reading the `{blogdown}` you can see that the default content and setup ar
 
 - You should place your content in `/content/` and NOT in `/themes/hugo-lithium/exampleSite/content/`. Actually when you create a new post with `blogdown::new_post()` this is done automatically. But if you want to edit or create a navbar entry manually, copy it to or create it in `/content/`. 
 
-- Lithium default CSS is in `/themes/hugo-lithium/static/css`, but add your own CSS in a file (for example `custom.css`) in this directory: `static/css/custom.css`. Some themes allow you to read your CSS with a entry in `config.yaml`, for other themes (including Lithium) you will need to add the path directly in the layout HTML files. (See CSS tweaks below).
+- Lithium default CSS is in `/themes/hugo-lithium/static/css`, but add your own CSS in a file (for example `custom.css`) in this directory: `static/css/custom.css`. Some themes allow you to read your CSS with an entry in `config.yaml`, for other themes (including Lithium) you will need to add the path directly in the layout HTML files. (See CSS tweaks below).
 
-- Place your posts' images in your post sub-folders. Specific to Lithium, place your logo in `/static/images/`. The layout will find your logo automatically there, with just the logo file name in `config.yaml`. Note that for main pages like [About], if you want to add images, you need to create the sub-directory `content/about/`, then rename `about.md` to `index.md` and move it in the sub-directory with your images.
+- Place your posts' images in your post sub-folders. Specific to Lithium, place your logo in `/static/images/`. The layout will find your logo automatically there, with just the logo file name in `config.yaml`. Note that for main pages like [About], if you want to add images, you need to create the sub-directory `content/about/`, then rename `about.md` to `index.md` and move it to the sub-directory with your images.
 
+
+
+<!-- Lithium tweaks -->
+
+<hr> 
+
+## Pimp my hugo-lithium
+
+### Edit `config.yaml`
+
+what to edit for my goals:
+
+- `baseURL` and `title` are obvious, 
+- `googleAnalytics` and `disqusShortname` can be commented out. If you want to use these services, you can add code directly in the HTML layout `head_custom.html`. 
+
+<!-- Note box -->
+<div class="notebox">
+
+<span class="nb-title">Web-activity trackers</span> 
+
+Please be careful using both tools as they collect a lot of visitors data and `{blogdown}` users have reported switching to alternative solutions that are less intrusive and respect visitors privacy (see [this post](https://www.rostrum.blog/2020/09/16/goatcounter-blogdown/) from Matt Dray and [this post](https://masalmon.eu/2019/10/02/disqus/) from Maëlle Salmon. 
+
+
+</div>
+
+- Under `menu` 
+
+
+In `config.yaml`, only update base 
 
 
 
