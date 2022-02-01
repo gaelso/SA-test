@@ -1,6 +1,6 @@
-baseurl: /
+baseurl: sola-analytics.com
 languageCode: en-us
-title: A Hugo website
+title: Sola Analytics
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
