@@ -150,8 +150,53 @@ Please be careful using both tools as they collect a lot of visitors data and `{
 
 </div>
 
-- Under `menu` 
+- Under `menu`, you can add the name and URL of the pages you want to show/create to the navigation bar. For each page, you can also add the fields: `weight` to choose the page display order, and `pre` to show a favicon instead of text. Important notice:  
+    + The pages are empty now, pending the creation of the content under the `/content/` folder.
+    + The menu entries with no name but a `pre` field are not showing. To do so we need to add the Hugo {{ .Pre }} variable and load Font Awesome icons in the layout HTML files (see below). 
+    + Here is my YAML menu: 
 
+```
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Blog
+      url: /blog/
+      weight: 2
+    - name: Projects
+      url: /projects/
+      weight: 3
+    - name:
+      url: https://github.com/gaelso
+      pre: "<i class='fab fa-github fa-lg'></i>"
+    - name:
+      url: https://www.linkedin.com/in/gaelsola/)
+      pre: "<i class='fab fa-linkedin fa-lg'  color:#0a66c2; ></i>"
+```
+
+```yaml
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Blog
+      url: /blog/
+      weight: 2
+    - name: Projects
+      url: /projects/
+      weight: 3
+    - name:
+      url: https://github.com/gaelso
+      pre: "<i class='fab fa-github fa-lg'></i>"
+    - name:
+      url: https://www.linkedin.com/in/gaelsola/)
+      pre: "<i class='fab fa-linkedin fa-lg'  color:#0a66c2; ></i>"
+```
+
+
+- Under `params`, `favicon` can be commented out and managed directly in the layout HTML files
 
 In `config.yaml`, only update base 
 
