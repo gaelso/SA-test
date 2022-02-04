@@ -4,7 +4,7 @@
 
 .nav-logo {
   float: left;
-  margin-top: -20px; /* -11px Increase to match logo of 60 px */
+  margin-top: -20px; /* -11px for 50 px logo, increased to match logo of 60 px */
   transition: transform 150ms ease-out;
 }
 
