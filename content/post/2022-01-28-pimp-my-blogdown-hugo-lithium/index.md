@@ -196,7 +196,7 @@ menu:
 ```
 
 
-- Under `params`, `favicon` can be commented out and managed directly in the layout HTML files
+- Under `params`, `favicon` can be commented out and managed directly in the layout HTML files.
 
 In `config.yaml`, only update base 
 
