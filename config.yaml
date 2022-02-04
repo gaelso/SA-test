@@ -1,4 +1,4 @@
-baseurl: sola-analytics.com
+baseurl: / #sola-analytics.com
 languageCode: en-us
 title: Sola Analytics
 theme: hugo-lithium
@@ -33,7 +33,7 @@ params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: A website built through Hugo and blogdown.
-  # favicon: logo-tree-final.ico
+  # favicon: favicon.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r
@@ -42,9 +42,9 @@ params:
   highlightjsVersion: 9.12.0
   logo:
     alt: Logo
-    height: 80
-    url: logo-tree-txt-flat2.svg #logo-tree-txt-final.svg
-    width: 80
+    height: 60
+    url: logo-600px-name.svg
+    width: 160
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
