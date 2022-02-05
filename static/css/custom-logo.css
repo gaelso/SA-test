@@ -5,16 +5,33 @@
 .nav-logo {
   float: left;
   margin-top: -20px; /* -11px for 50 px logo, increased to match logo of 60 px */
-  transition: transform 150ms ease-out;
+  /* transition: transform 1s; */
 }
 
 .nav-logo:hover {
-  transform: scale(1.1);
+  transform: none;
 }
 
 .nav-logo img {
   display: block;
+  position: absolute;
   max-height: 60px; /* 40px */
   width: auto;
   border-radius: 0%; /* 50% */
+}
+
+.to-rotate {
+  /*background: #333;*/
+}
+
+.to-rotate:hover {
+  transform: rotate(180deg);
+}
+
+.to-color {
+  background: #333;
+}
+
+.to-color:hover {
+  fill: #fc4445;
 }

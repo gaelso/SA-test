@@ -43,7 +43,7 @@ params:
   logo:
     alt: Logo
     height: 60
-    url: logo-600px-name.svg
+    url: logo-600px-name.svg # logo-60px-full.png
     width: 160
 markup:
   defaultMarkdownHandler: goldmark
