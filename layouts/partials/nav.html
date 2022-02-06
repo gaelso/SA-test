@@ -9,37 +9,16 @@
   </a>
 -->
 
-<!-- put images inside svg element, see: https://www.edoardovignati.it/solved-overlap-images-in-html/ -->
-<!--
 <nav class="nav">
   <a href="{{ "/" | relURL }}" class="nav-logo">
-   
-    <svg width="{{ .Site.Params.logo.width }}" height="{{ .Site.Params.logo.height }}"> 
-    <clipPath id="myContainer">
-      <rect width="{{ .Site.Params.logo.width }}" height="{{ .Site.Params.logo.height }}"></rect>
-    </clipPath>
-    <image class="logo90" width="{{ .Site.Params.logo.width }}" height="{{ .Site.Params.logo.height }}" xlink:href="{{ print "logo/" .Site.Params.logo.url | relURL }}" clip-path="url(#myContainer)"></image>
-    <image width="{{ .Site.Params.logo.width }}" height="{{ .Site.Params.logo.height }}" xlink:href="/logo/logo-60px-full.png" clip-path="url(#myContainer)"></image>
-  </svg>
-</a>
-
-<nav class="nav">
-  <a href="{{ "/" | relURL }}" class="nav-logo">
-    <img src="{{ print "logo/" .Site.Params.logo.url | relURL }}"
+    <img class="bottom" src="logo/logo-600px-name-red.svg"
          width="{{ .Site.Params.logo.width }}"
          height="{{ .Site.Params.logo.height }}"
          alt="{{ .Site.Params.logo.alt }}">
-    <img class="logo90" src= "/logo/logo-60px-part-hex-test.png" height="{{ .Site.Params.logo.height }}">
-  </a>
--->
-
-
-<nav class="nav">
-  <a href="{{ "/" | relURL }}" class="nav-logo">
-    <svg width="{{ .Site.Params.logo.width }}" height="{{ .Site.Params.logo.height }}"> 
-      <image class= "to-color" width="{{ .Site.Params.logo.width }}" height="{{ .Site.Params.logo.height }}" xlink:href="{{ print "logo/" .Site.Params.logo.url | relURL }}"></image>
-      <image class="to-rotate" height="{{ .Site.Params.logo.height }}" xlink:href="/logo/logo-60px-part-hex-test.png"></image>
-    </svg>
+    <img class="top" src="logo/logo-600px-name.svg"
+         width="{{ .Site.Params.logo.width }}"
+         height="{{ .Site.Params.logo.height }}"
+         alt="{{ .Site.Params.logo.alt }}">
   </a>
 
   <ul class="nav-links">
