@@ -18,13 +18,18 @@
   max-height: 60px; /* 40px */
   width: auto;
   border-radius: 0%; /* 50% */
-  -webkit-transition: opacity 0.1s ease-in-out;
-  -moz-transition: opacity 0.1s ease-in-out;
-  -o-transition: opacity 0.1s ease-in-out;
-  transition: opacity 0.1s ease-in-out;
+  -webkit-transition: filter 0.1s ease-in-out;
+  -moz-transition: filter 0.1s ease-in-out;
+  -o-transition: filter 0.1s ease-in-out;
+  transition: filter 0.1s ease-in-out;
+}
+
+/* Applying filter to get the color, see: https://codepen.io/sosuke/pen/Pjoqqp */
+.nav-logo img.top {
+  filter: invert(28%) sepia(94%) saturate(1363%) hue-rotate(195deg) brightness(90%) contrast(83%);
 }
 
 .nav-logo img.top:hover {
-  opacity:0;
+  filter: invert(55%) sepia(86%) saturate(5484%) hue-rotate(336deg) brightness(100%) contrast(98%);
 }
 
