@@ -39,6 +39,10 @@
 
 /* animate hex */
 #logo-hex img {
+  -webkit-animation: hex-rotation 6s infinite linear;
+  -moz-animation: hex-rotation 6s infinite linear;
+  -o-animation: hex-rotation 6s infinite linear;
+  -ms-animation: hex-rotation 6s infinite linear;
   animation: hex-rotation 6s infinite linear;
   /*
   animation-name: hex-rotation;
@@ -89,79 +93,44 @@
 */
 
 #logo-hex img:nth-of-type(1) {
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  -ms-animation-delay: 5s;
   animation-delay: 5s;
 }
 #logo-hex img:nth-of-type(2) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  -ms-animation-delay: 4s;
   animation-delay: 4s;
 }
 #logo-hex img:nth-of-type(3) {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  -ms-animation-delay: 3s;
   animation-delay: 3s;
 }
 #logo-hex img:nth-of-type(4) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -ms-animation-delay: 2s;
   animation-delay: 2s;
 }
 #logo-hex img:nth-of-type(5) {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  -ms-animation-delay: 1s;
   animation-delay: 1s;
 }
 #logo-hex img:nth-of-type(6) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  -ms-animation-delay: 0s;
   animation-delay: 0s;
 }
-
-/* Rotation with animation
-@keyframes hex-rotation {
-  0% { transform: rotate(0deg); }
-  17% { transform: rotate(60deg); }
-  34% { transform: rotate(120deg); }
-  51% { transform: rotate(180deg); }
-  67% { transform: rotate(240deg); }
-  84% { transform: rotate(300deg);}
-  100% { transform: rotate(360deg);}
-}
-*/
-
-/* Rotation with no animation
-@keyframes hex-rotation {
-  0%, 16% { 
-    transform: rotate(0deg); 
-    opacity: 1;
-  }
-  16%, 17% { 
-    opacity: 0.6; 
-  }
-  17%, 33% {
-    transform: rotate(60deg); 
-    opacity: 1;
-  }
-  33%, 34% { 
-    opacity: 0.6; 
-  }
-  34%, 50% { 
-    transform: rotate(120deg); 
-    opacity: 1;
-  }
-  50%, 51% { 
-    opacity: 0.6;
-  }
-  51%, 66% { 
-    transform: rotate(180deg); 
-    opacity: 1;
-  }
-  66%, 67% { 
-    opacity:0.4; 
-  }
-  67%, 83% { 
-    transform: rotate(240deg);
-    opacity: 1;
-  }
-  83%, 84% { 
-    opacity: 0.4; 
-  }
-  84%, 99% { 
-    transform: rotate(300deg);
-    opacity: 1;
-  }
-  99%, 100% { 
-    opacity: 0.4; 
-  }
-}
-*/
