@@ -11,14 +11,30 @@
 
 <nav class="nav">
   <a href="{{ "/" | relURL }}" class="nav-logo">
-    <!--img class="bottom" src="logo/logo-600px-name-red.svg"
-         width="{{ .Site.Params.logo.width }}"
-         height="{{ .Site.Params.logo.height }}"
-         alt="{{ .Site.Params.logo.alt }}"-->
-    <img class="top" src="logo/logo-600px-name-black.svg"
-         width="{{ .Site.Params.logo.width }}"
-         height="{{ .Site.Params.logo.height }}"
-         alt="{{ .Site.Params.logo.alt }}">
+    <div id="logo-hex">
+      <img src="/logo/logo-600px-hex3a.svg"
+           height="{{ .Site.Params.logo.height }}">
+      <img src="/logo/logo-600px-hex3.svg"
+           height="{{ .Site.Params.logo.height }}">
+      <img src="/logo/logo-600px-hex2a.svg"
+           height="{{ .Site.Params.logo.height }}">
+      <img src="/logo/logo-600px-hex2.svg"
+           height="{{ .Site.Params.logo.height }}">
+      <img src="/logo/logo-600px-hex1a.svg"
+           height="{{ .Site.Params.logo.height }}">
+      <img src="/logo/logo-600px-hex1.svg"
+           height="{{ .Site.Params.logo.height }}">
+    </div>
+    <div id="logo-name">
+      <img src="/logo/logo-600px-name-red.svg"
+           width="{{ .Site.Params.logo.width }}"
+           height="{{ .Site.Params.logo.height }}"
+           alt="{{ .Site.Params.logo.alt }}">
+      <img src="/logo/logo-600px-name.svg"
+           width="{{ .Site.Params.logo.width }}"
+           height="{{ .Site.Params.logo.height }}"
+           alt="{{ .Site.Params.logo.alt }}">
+    </div>
   </a>
 
   <ul class="nav-links">

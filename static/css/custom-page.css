@@ -46,7 +46,8 @@ body {
 }
 
 .nav-links a:hover {
-  color: var(--alike);
+  color: var(--wtf);
+  font-weight: bold;
 }
 
 .article-title {
