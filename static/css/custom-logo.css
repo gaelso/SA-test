@@ -29,6 +29,10 @@
   opacity: 1;
 }
 
+#logo-name img:nth-of-type(3) {
+  transition: transform 0.25s ease-in-out;
+}
+
 #logo-name:hover img:nth-of-type(1) {
   opacity: 1;
 }
@@ -37,23 +41,20 @@
   opacity: 0;
 }
 
-/* animate hex */
+/* fast rotate logo on hover */
+#logo-name:hover img:nth-of-type(3) {
+  transform: rotate(360deg);
+}
+
+/* animate hex --- uncomment images in nav.html
 #logo-hex img {
   -webkit-animation: hex-rotation 6s infinite linear;
   -moz-animation: hex-rotation 6s infinite linear;
   -o-animation: hex-rotation 6s infinite linear;
   -ms-animation: hex-rotation 6s infinite linear;
   animation: hex-rotation 6s infinite linear;
-  /*
-  animation-name: hex-rotation;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-duration: 6s;
-  */
 }
 
-
-/* Rotation with images  */
 @keyframes hex-rotation {
   0% {
     opacity: 1;
@@ -71,26 +72,6 @@
     opacity: 1;
   }
 }
-
-/* 
-@keyframes hex-rotation {
-  0% {
-    opacity: 1;
-  }
-  8.33% {
-    opacity: 1;
-  }
-  16.67% {
-    opacity: 0;
-  }
-  91.67% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-*/
 
 #logo-hex img:nth-of-type(1) {
   -webkit-animation-delay: 5s;
@@ -134,3 +115,5 @@
   -ms-animation-delay: 0s;
   animation-delay: 0s;
 }
+
+ */
