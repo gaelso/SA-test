@@ -173,6 +173,8 @@ or
 /content/projects/index.md
 ```
 
+
+
 ### Move posts to the Blog page
 
 At this stage we need to understand
