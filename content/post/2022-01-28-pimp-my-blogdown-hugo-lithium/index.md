@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-<span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain the few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
+<span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain a few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
 
 
 
@@ -132,6 +132,57 @@ While reading the `{blogdown}` you can see that the default content and setup ar
 <hr> 
 
 ## Pimp my hugo-lithium
+
+### Add pages
+
+This is a two steps process: 
+
+1. Add the navigation bar entries from `config.yaml` under `menu`
+1. Add the markdown content to `/content/` as sub-folders with `index.md` files or with the navbar url 
+
+I added Blog and Project entries as well as LinkedIn URL. Note that I used `weight` to set the items' order on the navigation bar.
+
+```
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Blog
+      url: /blog/
+      weight: 2
+    - name: Projects
+      url: /projects/
+      weight: 3
+    - name: Github
+      url: https://github.com/gaelso
+      weight: 4
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/gaelsola/)
+      weight: 5
+```
+
+At this stage, clicking on either Blog or Projects in the navigation bar will give back a 404 error as I haven't  created content yet. There are 2 options for page content: create a Markdown file with the name of the URL (ex. `projects.md` for the Projects page) or create a sub-folder with the URL name and an `index.md` file inside. For the Project page the two options would be: 
+
+```
+/content/projects.md
+```
+or
+
+```
+/content/projects/index.md
+```
+
+### Move posts to the Blog page
+
+At this stage we need to understand
+
+### Create a home page
+
+### Change links to fontawesome icons
+
+### Tweak the logo
+
 
 ### Edit `config.yaml`
 
