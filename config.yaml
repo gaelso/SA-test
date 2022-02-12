@@ -15,24 +15,34 @@ permalinks:
 menu:
   main:
     - name: About
+      identifier: about
       url: /about/
+      pre: ""
       weight: 1
     - name: Blog
+      identifier: blog
       url: /blog/
+      pre: ""
       weight: 2
     - name: Projects
+      identifier: projects 
       url: /projects/
+      pre: ""
       weight: 3
-    - name: Github
+    - name: 
+      identifier: github
       url: https://github.com/gaelso
-      pre: "<i class='fab fa-github fa-lg'></i>"
+      pre: "<i class='fa-brands fa-github fa-lg'></i>"
       weight: 4
-    - name: LinkedIn
-      url: https://www.linkedin.com/in/gaelsola/)
-      pre: "<i class='fab fa-linkedin fa-lg'  color:#0a66c2; ></i>"
+    - name: 
+      identifier: linkedin
+      url: https://www.linkedin.com/in/gaelsola/
+      pre: "<i class='fa-brands fa-linkedin fa-lg'></i>"
       weight: 5
-    - name: Home
-      url: ""
+    - name: 
+      identifier: email
+      url: mailto:gael.sola@sola-analytics.com
+      pre: "<i class='fa-solid fa-envelope fa-lg'></i>"
       weight: 6
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
