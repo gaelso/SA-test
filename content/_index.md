@@ -19,6 +19,6 @@ title: ""
 
 <br>
 
-I am Gael Sola, forester, data analyst and aspiring web developer. This website is for showcasing some of my work and personal projects.
+I am Gael Sola, forester, data scientist and aspiring web developer. This website is for showcasing some of my work and personal projects.
 
 Thanks for your visit and feel free to connect with me on Github, LinkedIn or by email!
