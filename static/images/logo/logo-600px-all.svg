@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1500"
+   width="1200"
    height="600"
-   viewBox="0 0 396.875 158.75"
+   viewBox="0 0 317.5 158.75"
    version="1.1"
    id="svg307762"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
@@ -28,15 +28,15 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="1"
-     inkscape:cx="315.5"
-     inkscape:cy="312.5"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="779.93878"
+     inkscape:cy="464.56916"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="1072"
      inkscape:window-y="409"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g27531"
+     inkscape:current-layer="layer7"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -910,7 +910,7 @@
      inkscape:groupmode="layer"
      id="g1424"
      inkscape:label="hex"
-     style="display:none">
+     style="display:inline">
     <g
        id="g74272">
       <path
@@ -934,7 +934,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="hex-mov"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:groupmode="layer"
        id="layer11"
@@ -1007,7 +1007,7 @@
        inkscape:groupmode="layer"
        id="g27531"
        inkscape:label="hex-mov1aa"
-       style="display:inline">
+       style="display:none">
       <path
          id="path27525"
          style="display:inline;fill:url(#linearGradient28097);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1025,7 +1025,7 @@
        inkscape:groupmode="layer"
        id="layer12"
        inkscape:label="hex-mov2"
-       style="display:inline">
+       style="display:none">
       <path
          id="path74294"
          style="display:inline;fill:#97caef;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1106,7 +1106,7 @@
      inkscape:groupmode="layer"
      id="g54721"
      inkscape:label="tree"
-     style="display:none">
+     style="display:inline">
     <path
        id="path66507"
        style="color:#000000;fill:#000000;fill-opacity:1;stroke-width:0.999999;-inkscape-stroke:none"
@@ -1134,6 +1134,29 @@
          x="153.61453"
          y="116.8456"
          id="tspan15989">Analytics</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g984"
+     inkscape:label="name copy"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.6737px;line-height:0.8;font-family:'Space Mono';-inkscape-font-specification:'Space Mono Bold';text-align:start;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       x="153.66695"
+       y="84.315704"
+       id="text982"
+       transform="scale(0.99487064,1.0051558)"><tspan
+         sodipodi:role="line"
+         id="tspan978"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:63.5px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono Bold';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="153.66695"
+         y="84.315704">Sola</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2222px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono Bold';text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="153.66695"
+         y="118.1673"
+         id="tspan980">Analytics</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
