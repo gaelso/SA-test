@@ -58,19 +58,19 @@
 }
 
 .front  { 
-  background-image: url("/images/sola-analytics.png");  
+  background-image: var(--home-img1);  
   background-size: contain; 
 }
 .right  { 
-  background-image: url("/images/sola-analytics-sign.png");  
+  background-image: var(--home-img2);  
   background-size: contain; 
 }
 .back   { 
-  background-image: url("/images/sola-analytics-gradient1.png");  
+  background-image: var(--home-img3);  
   background-size: contain; 
 }
 .left   {
-  background-image: url("/images/sola-analytics-sign.png");  
+  background-image: var(--home-img4);  
   background-size: contain; 
 }
 
