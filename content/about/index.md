@@ -1,37 +1,12 @@
 ---
-date: "2016-05-05T21:48:51-07:00"
+date: "2022-02-13"
 title: About
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+Hi, I am Gael, I am a forester, data scientist and aspiring web developer. I currently work as a consultant at the Food and Agriculture Organization of United Nations, where I specialize in monitoring tropical forests and their impact on climate change. My daily work oscillate between data analysis of forest inventory data, training and reporting/communication.
+
+I am a huge fan of the R project, its amazing community and the tools and packages developed by Rstudio. In particular I am on the path to master Rmarkdown and Shiny and incorporate them in my workflows and communications products. I also provide hands-on introductions to R and R training for forestry data analysis. 
+
+In my free time, I am learning or improving R skills and I am also interested in web development and design, cooking and traveling in... your guessed it, forests and nature!
 
 
-![euh](images/hugo-apero.png)
-
-blahblah
-
-
-![hoho](hugo-apero.png)
-
-blahblahblah
-
-<div class="post-img"> 
-  <a href="https://hugo-apero.netlify.app/">
-    <img src="images/hugo-apero.png" alt="Hugo Apéro">
-  </a>
-</div>
-
-more blah
-
-<div class="post-img"> 
-  <a href="https://hugo-apero.netlify.app/">
-    <img src="hugo-apero.png" alt="Hugo Apéro">
-  </a>
-</div>
-
-
-<div class="post-img"> 
-  <a href="https://hugo-apero.netlify.app/">
-    <img src="content/hugo-apero.png" alt="Hugo Apéro">
-  </a>
-</div>
