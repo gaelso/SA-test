@@ -29,21 +29,25 @@ menu:
       url: /projects/
       pre: ""
       weight: 3
+    - name: Training
+      identifier: training
+      url: /training/
+      weight: 4
     - name: 
       identifier: github
       url: https://github.com/gaelso
       pre: "<i class='fa-brands fa-github fa-lg'></i>"
-      weight: 4
+      weight: 10
     - name: 
       identifier: linkedin
       url: https://www.linkedin.com/in/gaelsola/
       pre: "<i class='fa-brands fa-linkedin fa-lg'></i>"
-      weight: 5
+      weight: 11
     - name: 
       identifier: email
       url: mailto:gael.sola@sola-analytics.com
       pre: "<i class='fa-solid fa-envelope fa-lg'></i>"
-      weight: 6
+      weight: 12
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
