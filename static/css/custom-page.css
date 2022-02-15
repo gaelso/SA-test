@@ -42,6 +42,11 @@
   transform: scale(1.6);
 }
 
+/* add space between icon and symbol out */
+.fa-arrow-up-right-from-square {
+  margin-left: 4px;
+}
+
 
 /* Body background color */
 body {
