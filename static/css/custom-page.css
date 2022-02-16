@@ -14,33 +14,6 @@
  line-height: 1em;
 }
 
-/* Colorize icons on hover */
-.fa-github {
-  transition: transform 150ms ease-out;
-}
-
-.fa-github:hover {
-  color: #171515 !important;
-  transform: scale(1.6);
-}
-
-.fa-linkedin {
-  transition: transform 150ms ease-out;
-}
-
-.fa-linkedin:hover {
-  color: #0077b5 !important;
-  transform: scale(1.6);
-}
-
-.fa-envelope {
-  transition: transform 150ms ease-out;
-}
-
-.fa-envelope:hover {
-  color: #2167ba !important;
-  transform: scale(1.6);
-}
 
 /* add space between icon and symbol out */
 .fa-arrow-up-right-from-square {

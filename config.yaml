@@ -33,21 +33,21 @@ menu:
       identifier: training
       url: /training/
       weight: 4
-    - name: 
-      identifier: github
-      url: https://github.com/gaelso
-      pre: "<i class='fa-brands fa-github fa-lg'></i><i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>" 
-      weight: 10
-    - name: 
-      identifier: linkedin
-      url: https://www.linkedin.com/in/gaelsola/
-      pre: "<i class='fa-brands fa-linkedin fa-lg'></i><i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>"
-      weight: 11
-    - name: 
-      identifier: email
-      url: mailto:gael.sola@sola-analytics.com
-      pre: "<i class='fa-solid fa-envelope fa-lg'></i><i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>"
-      weight: 12
+    # - name: 
+    #   identifier: github
+    #   url: https://github.com/gaelso
+    #   pre: "<i class='fa-brands fa-github fa-lg'></i><i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>" 
+    #   weight: 10
+    # - name: 
+    #   identifier: linkedin
+    #   url: https://www.linkedin.com/in/gaelsola/
+    #   pre: "<i class='fa-brands fa-linkedin fa-lg'></i><i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>"
+    #   weight: 11
+    # - name: 
+    #   identifier: email
+    #   url: mailto:gael.sola@sola-analytics.com
+    #   pre: "<i class='fa-solid fa-envelope fa-lg'></i><i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>"
+    #   weight: 12
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5

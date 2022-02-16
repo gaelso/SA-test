@@ -13,4 +13,5 @@ I am also an avid users of Rstudio communication oriented packages, `{rmarkdown}
 
 In my free time, I like learning new R skills, web development and web design. I also have a few off line passions, mostly cooking and traveling to forests and nature <i class="fa-solid fa-mountain"></i> <i class="fa-solid fa-person-hiking"></i> <i class="fa-solid fa-campground"></i>
 
+Feel free to connect with me on [Github<i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>](https://github.com/gaelso), [LinkedIn<i class='fa-solid fa-arrow-up-right-from-square fa-2xs'></i>](https://www.linkedin.com/in/gaelsola/) or by email at [gael.sola@sola-analytics.com](mailto:gael.sola@sola-analytics.com).
 
