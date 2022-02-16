@@ -28,9 +28,9 @@
 }
 /* Cube */
 .img-cube {
-  width: 400px;
-  height: 225px;
-  perspective: 600px;
+  width: var(--cube-width);
+  height: calc(var(--cube-width) * 0.5625);
+  perspective: 750px;
   margin: 4em auto 4em auto;
 }
 
@@ -45,39 +45,39 @@
 
 .face {
   position: absolute;
-  width: 400px;
-  height: 225px;
+  width: var(--cube-width);
+  height: calc(var(--cube-width) * 0.5625);
   border-radius: 4px;
   border: 2px solid var(--dark);
-  line-height: 225px;
+  line-height: calc(var(--cube-width) * 0.5625);
   font-size: 20px;
   font-weight: bold;
   color: white;
   text-align: center;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
 }
 
 .front  { 
-  background-image: var(--home-img1);  
+  background-image: var(--cube-img1);  
   background-size: contain; 
 }
 .right  { 
-  background-image: var(--home-img2);  
+  background-image: var(--cube-img2);  
   background-size: contain; 
 }
 .back   { 
-  background-image: var(--home-img3);  
+  background-image: var(--cube-img3);  
   background-size: contain; 
 }
 .left   {
-  background-image: var(--home-img4);  
+  background-image: var(--cube-img4);  
   background-size: contain; 
 }
 
-.front  { transform: rotateY(  0deg) translateZ(200px); }
-.right  { transform: rotateY( 90deg) translateZ(200px); }
-.back   { transform: rotateY(180deg) translateZ(200px); }
-.left   { transform: rotateY(-90deg) translateZ(200px); }
+.front  { transform: rotateY(  0deg) translateZ(calc(var(--cube-width) / 2)); }
+.right  { transform: rotateY( 90deg) translateZ(calc(var(--cube-width) / 2)); }
+.back   { transform: rotateY(180deg) translateZ(calc(var(--cube-width) / 2)); }
+.left   { transform: rotateY(-90deg) translateZ(calc(var(--cube-width) / 2)); }
 
 /* replaced with JS onclick() 
 @keyframes rotate {

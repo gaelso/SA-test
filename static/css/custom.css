@@ -15,9 +15,10 @@
   --box: var(--main-light);
   --box-bg: rgba(116, 165, 210, 0.1);
   --shadow: 5px 10px 20px var(--main-light);
-  --home-img1: url("/images/sola-analytics.png");
-  --home-img2: url("/images/sola-analytics-sign.png");
-  --home-img3: url("/images/sola-analytics-gradient1.png");
-  --home-img4: url("/images/sola-analytics-sign.png");
+  --cube-img1: url("/images/sola-analytics.png");
+  --cube-img2: url("/images/sola-analytics-sign.png");
+  --cube-img3: url("/images/sola-analytics-gradient1.png");
+  --cube-img4: url("/images/sola-analytics-sign.png");
+  --cube-width: 500px;
 }
 

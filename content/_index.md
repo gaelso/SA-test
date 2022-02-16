@@ -23,5 +23,3 @@ I am Gael Sola, forester, data scientist and aspiring web developer. This websit
 
 Thanks for your visit and feel free to connect with me on Github, LinkedIn or by email!
 
-<br>
-
