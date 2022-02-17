@@ -19,7 +19,7 @@ footer {
 }
 
 .footer-links a {
-  color: var(--light);
+  color: inherit;
   text-decoration: underline var(--cont);
   transition: color 150ms ease;
   margin: 0;
@@ -29,6 +29,22 @@ footer {
 .footer-links a:focus {
   color: var(--cont);
 }
+
+/* In case hioome background is dark and other pages are light bg */
+/*
+#home .footer-links {
+  color: var(--light);
+}
+
+#home .footer-links a {
+  text-decoration: underline var(--cont);
+}
+
+#home .footer-links a:hover,
+.footer-links a:focus {
+  color: var(--cont);
+}
+*/
 
 .footer-links li::before {
   content: '/';
@@ -52,7 +68,7 @@ footer {
 }
 
 .footer-links a:hover.contacts {
-  color: var(--light);
+  color: inherit;
 }
 
 .fa-github, .fa-linkedin, .fa-envelope {

@@ -3,7 +3,8 @@
 
 /* home settings */
 #home {
-  background-image: linear-gradient(180deg, var(--light90) 0%, transparent 200px, transparent 100%), var(--bg-img-dark);
+  /*background-image: linear-gradient(180deg, var(--light90) 0%, transparent 200px, transparent 100%), var(--bg-img-dark);*/
+  background-image: var(--bg-img-dark);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -62,7 +63,7 @@
   width: var(--cube-width);
   height: calc(var(--cube-width) * 0.5625);
   border-radius: 4px;
-  border: 2px solid var(--dark);
+  border: 2px solid var(--light);
   line-height: calc(var(--cube-width) * 0.5625);
   font-size: 20px;
   font-weight: bold;
