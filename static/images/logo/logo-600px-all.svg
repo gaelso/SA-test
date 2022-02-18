@@ -28,15 +28,15 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="779.93878"
-     inkscape:cy="464.56916"
+     inkscape:zoom="0.5"
+     inkscape:cx="943"
+     inkscape:cy="553"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="1072"
      inkscape:window-y="409"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="g984"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -910,7 +910,7 @@
      inkscape:groupmode="layer"
      id="g1424"
      inkscape:label="hex"
-     style="display:inline">
+     style="display:none">
     <g
        id="g74272">
       <path
@@ -1138,7 +1138,7 @@
   <g
      inkscape:groupmode="layer"
      id="g984"
-     inkscape:label="name copy"
+     inkscape:label="name-equal"
      style="display:inline">
     <text
        xml:space="preserve"
@@ -1200,7 +1200,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="colors"
-     style="display:inline">
+     style="display:none">
     <rect
        style="display:inline;fill:#cafefe;fill-opacity:1;stroke:none;stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;paint-order:markers fill stroke"
        id="rect8423"

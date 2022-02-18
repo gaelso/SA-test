@@ -1,15 +1,14 @@
 <!-- Original nav.html logo part -->
-<!--
 <nav class="nav">
   <a href="{{ "/" | relURL }}" class="nav-logo">
-    <img src="{{ print "images/" .Site.Params.logo.url | relURL }}"
+    <img src="{{ .Site.Params.logo.url | relURL }}"
          width="{{ .Site.Params.logo.width }}"
          height="{{ .Site.Params.logo.height }}"
          alt="{{ .Site.Params.logo.alt }}">
   </a>
--->
 
-<nav class="nav">
+
+<!--nav class="nav">
   <a href="{{ "/" | relURL }}" class="nav-logo">
     <div id="logo-name">
       <img src="/images/logo/logo-600px-name-red.svg"
@@ -23,7 +22,7 @@
       <img src="/images/logo/logo-600px-hex1.svg"
            height="{{ .Site.Params.logo.height }}">
     </div>
-    <!--div id="logo-hex">
+    <div id="logo-hex">
       <img src="/logo/logo-600px-hex3a.svg"
            height="{{ .Site.Params.logo.height }}">
       <img src="/logo/logo-600px-hex3.svg"
@@ -36,8 +35,8 @@
            height="{{ .Site.Params.logo.height }}">
       <img src="/logo/logo-600px-hex1.svg"
            height="{{ .Site.Params.logo.height }}">
-    </div-->
-  </a>
+    </div>
+  </a-->
 
   <ul class="nav-links">
     {{ range .Site.Menus.main }}
