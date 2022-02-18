@@ -7,6 +7,7 @@ categories: []
 tags: []
 ---
 
+
 <span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package and I am going to explain a few tweaks I made to the default Lithium Hugo theme. Go through the summary below to have the short version or follow along for the full details.
 
 
