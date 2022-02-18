@@ -4,7 +4,7 @@ title: ""
 
 <br>
 
-## <center> Welcome to </center>
+## Welcome to
 
 <script type="text/javascript">
   function rotateElem() {
