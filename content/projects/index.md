@@ -4,7 +4,7 @@ title: Projects
 
 **This section is under construction**
 
-The goal of this page is to list and link to on-going or past projects I contributed to either for work or as a hobby. 
+Here you can find info on on-going or past projects I contributed to either for work or as a hobby. 
 
 
 ## R related  <i class="fa-brands fa-r-project"></i>
