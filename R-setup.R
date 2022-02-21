@@ -24,7 +24,6 @@ blogdown::serve_site()
 
 blogdown::stop_server()
 
-
 blogdown::check_site()
 blogdown::check_config()
 blogdown::check_gitignore()
