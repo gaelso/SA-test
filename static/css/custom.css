@@ -16,12 +16,12 @@
   --bg-content: rgba(245, 245, 245, 0.9);
   --box: var(--main-light);
   --box-bg: rgba(116, 165, 210, 0.1);
-  --shadow: 5px 10px 20px var(--main-light);
+  /*--shadow: 5px 10px 20px var(--main-light);*/
   --cube-img1: url("/images/sola-analytics-sign.png");
   --cube-img2: url("/images/sola-analytics.png");
   --cube-img3: url("/images/sola-analytics-sign.png");
   --cube-img4: url("/images/sola-analytics.png");
-  --cube-width: 500px;
+  --cube-width: 520px;
   --cube-opacity: 0.95;
 }
 
