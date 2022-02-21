@@ -33,7 +33,7 @@ body {
 
 /* Content colors */
 .content {
-  background-color: var(--bg-content);
+  background-color: var(--light);
   color: var(--dark);
   border-radius: 4px;
   box-sizing: border-box;
@@ -103,8 +103,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   max-width: 700px;
-  background: #efefef;
-  box-shadow: 0 48px 80px -32px rgba(0,0,0,0.3);
+  /*background: var(--main-light);*/
+  /*box-shadow: 0 48px 80px -32px var(--dark);*/
+  border: 2px solid var(--alike);
+  border-radius: 4px;
 }
 
 .input {
@@ -114,21 +116,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .label {
   width: 100%;
-  padding: 20px 30px;
-  background: #e5e5e5;
+  margin: 10px 0px 10px 10px;
+  padding: 10px 15px;
+  /*background: var(--light70);*/
   cursor: pointer;
-  font-weight: bold;
+  font-family: 'Space Mono', Monospace;
   font-size: 18px;
-  color: #7f7f7f;
+  color: var(--alike-light);
   transition: background 0.1s, color 0.1s;
+  border: 2px solid var(--alike);
+  border-radius: 4px
 }
 
 .label:hover {
-  background: #d8d8d8;
+  background: var(--box-bg);
+  color: var(--alike); 
+  font-weight: bold;
 }
 
 .label:active {
-  background: #ccc;
+  background: var(--light);
 }
 
 .input:focus + .label {
@@ -137,8 +144,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .input:checked + .label {
-  background: #fff;
-  color: #000;
+  /*background: var(--light);*/
+  background: var(--alike);
+  color: var(--light);
+  font-weight: bold;
 }
 
 @media (min-width: 600px) {
@@ -150,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 .panel {
   display: none;
   padding: 20px 30px 30px;
-  background: #fff;
+  background: var(--light);
 }
 
 @media (min-width: 600px) {
