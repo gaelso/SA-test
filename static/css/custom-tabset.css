@@ -1,0 +1,75 @@
+
+/* Tabset CSS */
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    /*background: var(--main-light);*/
+    /*box-shadow: 0 48px 80px -32px var(--dark);*/
+    border: 2px solid var(--alike);
+    border-radius: 4px;
+  }
+  
+  .input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .label {
+    width: 100%;
+    margin: 10px 0px 10px 10px;
+    padding: 10px 15px;
+    /*background: var(--light70);*/
+    cursor: pointer;
+    font-family: 'Space Mono', Monospace;
+    font-size: 18px;
+    color: var(--alike-light);
+    transition: background 0.1s, color 0.1s;
+    border: 2px solid var(--alike);
+    border-radius: 4px
+  }
+  
+  .label:hover {
+    background: var(--box-bg);
+    color: var(--alike); 
+    font-weight: bold;
+  }
+  
+  .label:active {
+    background: var(--light);
+  }
+  
+  .input:focus + .label {
+    box-shadow: inset 0px 0px 0px 3px #2aa1c0;
+    z-index: 1;
+  }
+  
+  .input:checked + .label {
+    /*background: var(--light);*/
+    background: var(--alike);
+    color: var(--light);
+    font-weight: bold;
+  }
+  
+  @media (min-width: 600px) {
+    .label {
+      width: auto;
+    }
+  }
+  
+  .panel {
+    display: none;
+    padding: 20px 30px 30px;
+    background: var(--light);
+  }
+  
+  @media (min-width: 600px) {
+    .panel {
+      order: 99;
+    }
+  }
+  
+  .input:checked + .label + .panel {
+    display: block;
+  }
