@@ -28,28 +28,22 @@ blogdown::check_site()
 blogdown::check_config()
 blogdown::check_gitignore()
 
+
 ## Copy favicon.ico to root
-file.copy("static/images/icon/favicon.ico", "static/favicon.ico")
+file.copy("static/images/icon/favicon.ico", "static/favicon.ico", overwrite = T)
+
 
 ## Build site to publish on OVH
-dir.create("www", showWarnings = F)
+to_rm <- list.files("public", full.names = T, recursive = T)
+to_rm
+
+unlink(to_rm, recursive = T)
 
 blogdown::build_site(local = F)
 
-site_files <- list.files(path = "public", recursive = T, full.names = T)
-site_files
 
-to_rm <- list.files("www", recursive = T, full.names = T)
-to_rm
-unlink(to_rm)
-
-file.copy(site_files, "www", recursive = T)
-
-## Add psots 
-blogdown::new_post(title = "Navbar icons")
-blogdown::new_post(title = "Blogdown in early 2022 - part1")
-
-blogdown::new_post(title = "Pimp my blogdown (hugo-lithium)")
+## Add posts 
+blogdown::new_post(title = "Post template", subdir = "blog/post/")
 
 
 
