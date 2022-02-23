@@ -1,14 +1,22 @@
 
 /* Tabset CSS */
 
+.tabs-container {
+  max-width: 700px;
+  margin: auto;
+  /*background: var(--main-light);*/
+  /*box-shadow: 0 48px 80px -32px var(--dark);*/
+  border: 2px solid var(--alike);
+  border-radius: 4px;
+}
+
+.tabs-container h1 {
+  margin-left: 10px;
+}
+
 .tabs {
     display: flex;
     flex-wrap: wrap;
-    max-width: 700px;
-    /*background: var(--main-light);*/
-    /*box-shadow: 0 48px 80px -32px var(--dark);*/
-    border: 2px solid var(--alike);
-    border-radius: 4px;
   }
   
   .input {
@@ -18,7 +26,7 @@
   
   .label {
     width: 100%;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 5px 5px 10px;
     padding: 10px 15px;
     /*background: var(--light70);*/
     cursor: pointer;
@@ -60,7 +68,9 @@
   
   .panel {
     display: none;
-    padding: 20px 30px 30px;
+    height: 300px;
+    overflow: auto;
+    margin: 20px 20px 20px 20px;
     background: var(--light);
   }
   
