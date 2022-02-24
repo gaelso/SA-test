@@ -15,13 +15,15 @@ tags:
 
 <span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package. I wanted to have my own website for a long time and I finally had a little free time this January (2022) before going back to work. I am fairly good with [`{rmarkdown}`](https://rmarkdown.rstudio.com/) and [`{bookdown}`](https://bookdown.org/yihui/bookdown/) now is the time to give [`{blogdown}`](https://bookdown.org/yihui/blogdown/) a try!
 
-I am an advanced R user but only know basic html and css and no javascript at the time of writing this post. `{blogdown}` is an amazing entry point to learn web development and design package could do the heavy lifting and I could focus on the R and Rmarkdown content. But I couldn't stop myself from trying to tweak the default templates and break everything... And I did! So why not use my first post to give a small list of my main findings.
+
+## `{blogdown}` with love
+
+I am an advanced R user but only know basic html and css and no javascript at the time of writing this post. `{blogdown}` is amazing! It can be used either (1) to get immediately a good looking website template to let users focus on content with themes like [Hugo Apéro](https://github.com/hugo-apero) or (2) an excellent entry point to learn web development and design with simpler themes like [Hugo Xmin](https://github.com/yihui/hugo-xmin) and [Hugo Lithium](https://github.com/yihui/hugo-lithium). These last two themes are easy to tweak and build on to the point were users might want to start developing their own template from scratch or adapt more complex Hugo themes to `{blogdown}`.
 
 
+## Big thanks to the R community 
 
-### Big thanks to the R community 
-
-Before diving in the code, I wanted to give a massive shout-out to the R community. I am particularly grateful for all the awesome tools making code and output more fun, easier to grasp and (most importantly) beautiful.
+I am taking advantage of this first post to give a massive shout-out to the R community. I am particularly grateful for all the awesome tools making code and output more fun, easier to grasp and (most importantly) beautiful.
 
 It's hard to compete with Office suites and motivate people to learn coding when:
 
