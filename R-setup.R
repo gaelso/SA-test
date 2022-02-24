@@ -43,7 +43,7 @@ blogdown::build_site(local = F)
 
 
 ## Add posts 
-blogdown::new_post(title = "Post template", subdir = "blog/post/")
+blogdown::new_post(title = "First post", subdir = "blog/post/")
 
 
 
