@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-## Welcome to
+## Welcome to Sola Analytics!  
 
 <script type="text/javascript">
   function rotateElem() {
@@ -23,5 +23,5 @@ title: ""
 
 I am Gael Sola, forester, data scientist and aspiring web developer. This website is for showcasing some of my work and personal projects.
 
-Thanks for your visit and feel free to connect with me in the [About](/about/) section or contacts below <i class="fa-solid fa-hand-point-down"></i>!
+Thanks for your visit and feel free to connect with me in the [\[About\]](/about/) section or contacts below <i class="fa-solid fa-hand-point-down"></i>!
 

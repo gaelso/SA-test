@@ -23,11 +23,11 @@
   max-height: 80px;
   width: auto;
   border-radius: 0%;
-  transition: transform 150ms ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 .nav-logo:hover img {
-  transform: rotate(360deg);
+  transform: rotate(120deg);
 }
 
 /* change logo color on hover 
