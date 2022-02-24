@@ -47,7 +47,7 @@
 .img-cube {
   width: var(--cube-width);
   height: calc(var(--cube-width) * 0.5625);
-  perspective: 750px;
+  perspective: calc(var(--cube-width) * 3 / 2);
   margin: 4em auto 4em auto;
 }
 
