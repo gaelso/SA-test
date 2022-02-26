@@ -43,7 +43,7 @@ blogdown::build_site(local = F)
 
 
 ## Add posts 
-blogdown::new_post(title = "First post", subdir = "blog/post/")
+blogdown::new_post(title = "Thank you R community", subdir = "blog/post/", date = "2022-01-24")
 
 
 
