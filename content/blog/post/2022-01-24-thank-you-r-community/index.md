@@ -20,9 +20,18 @@ tags:
 
 I am an advanced R user but only know basic html and css and no javascript at the time of writing this post. I tested `{blogdown}` to create a website with my very basic skills, hoping that I could focus on content and let the package functions do the heavy lifting. And I have to say it is amazing! 
 
-January 2022 is not the best time to start using `{blogdown}` as the [documentation](https://bookdown.org/yihui/blogdown/) is slightly outdated. As the authors note:
+January 2022 is not the best time to start using `{blogdown}` as the [documentation](https://bookdown.org/yihui/blogdown/) is slightly outdated, as the authors note:
 
+> A note from the authors: Some of the information and instructions in this book are now out of date because of changes to Hugo and the blogdown package. If you have suggestions for improving this book, please file an issue in our GitHub repository. Thanks for your patience while we work to update the book, and please stay tuned for the revised version!  
+> In the meantime, you can find an introduction to the changes and new features in the [v1.0 release blog post](https://www.rstudio.com/blog/blogdown-v1.0/) and this ["Up & running with blogdown in 2021"](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/) blog post.  
+> --- Yihui, Amber, & Alison (consulted on 24/01/2022)
 
+And in particular the recommended Hugo theme [`wowchemy/starter-academic`](https://github.com/wowchemy/starter-hugo-academic) was not fully compatible with `{blogdown}` as of early 2022. The organization behind the theme recommended its own method for installing the theme. See this issue [638](https://github.com/rstudio/blogdown/issues/638) on `{blogdown}` Github repo and Yihui's comment:
+
+> This issue seems to be fixable to me, but I can't guarantee that it won't happen again in the future. At some point, I might have to just give up and let users follow the official instructions to install extra system dependencies like Go and GIT...  
+> --- Yihui's comment on Github rstudio/blogdown issue 638 
+
+Still, most of Alison's post and the blogdown book were very relevant and a good basis for learning `{blogdown}` and make it work. 
 
 It can be used:
 
