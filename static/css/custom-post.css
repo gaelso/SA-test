@@ -1,4 +1,11 @@
 
+blockquote p {
+  background-color: var(--box-bg);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+
 /* First letter */
 .first-letter {
   float: left;
