@@ -20,7 +20,8 @@
   --cube-img2: url("/images/sola-analytics.png");
   --cube-img3: url("/images/sola-analytics-sign.png");
   --cube-img4: url("/images/sola-analytics.png");
-  --cube-width: 40vw;
+  --cube-width: 50vw;
+  --cube-width-alt: 520px;
   --cube-opacity: 0.95;
 }
 
