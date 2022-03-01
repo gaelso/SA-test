@@ -55,3 +55,14 @@ pre, code {
   max-width: 80%;
   border: 2px solid #808080;
 }
+
+/* Remove link style from linked images */
+.post-img a {
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.post-img a:hover,
+.post-img a:focus {
+  background: transparent;
+}
