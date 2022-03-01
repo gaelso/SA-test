@@ -6,17 +6,19 @@ slug: thank-you-r-community
 categories:
   - First post
   - Opinion
+  - R
+  - Rstudio
 tags:
   - blogdown
   - R
   - Rstudio
 ---
 
-<span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package. I wanted to have my own website for a long time and I finally had a little free time this January (2022) before going back to work. I am fairly good with [`{rmarkdown}`](https://rmarkdown.rstudio.com/) and [`{bookdown}`](https://bookdown.org/yihui/bookdown/), now is the time to give [`{blogdown}`](https://bookdown.org/yihui/blogdown/) a try!
+<span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package. I wanted to have my own website for a long time and I finally had a little free time this January (2022) before going back to work. I am fairly good with [`{rmarkdown}`](https://rmarkdown.rstudio.com/) and [`{bookdown}`](https://bookdown.org/yihui/bookdown/) R packages, now is the time to give [`{blogdown}`](https://bookdown.org/yihui/blogdown/) a try!
 
 
 
-## `{blogdown}` with love
+## {blogdown} with love
 
 I am an advanced R user but only know basic html and css and no javascript at the time of writing this post. I tested `{blogdown}` to create a website with my very basic skills, hoping that I could focus on content and let the package functions do the heavy lifting. And I have to say it is amazing! 
 
@@ -31,24 +33,45 @@ And in particular the recommended Hugo theme [`wowchemy/starter-academic`](https
 > This issue seems to be fixable to me, but I can't guarantee that it won't happen again in the future. At some point, I might have to just give up and let users follow the official instructions to install extra system dependencies like Go and GIT...  
 > --- Yihui's comment on Github rstudio/blogdown issue 638 
 
-Still, most of Alison's post and the blogdown book were very relevant and a good basis for learning `{blogdown}` and make it work. After a little search online it seems that the new hype is the [Hugo Apéro theme]((https://github.com/hugo-apero). This theme looks gorgeous and its documentation is already well advanced. I played a bit with this theme and the default [Hugo Lithium theme](https://github.com/yihui/hugo-lithium). From my point of view, they complement each other nicely to offer either:
+Still, most of Alison's post and the blogdown book were very relevant and a good basis for learning `{blogdown}` and make it work. After a little search online it seems that the new hype is the [Hugo Apéro theme](https://github.com/hugo-apero). This theme looks gorgeous and its documentation is already well advanced. I played a bit with this theme and the default [Hugo Lithium theme](https://github.com/yihui/hugo-lithium). From my point of view, they complement each other nicely to offer either:
 
-1. a good looking website out of the box to let users focus on content with themes like [Hugo Apéro](https://github.com/hugo-apero), or
-1. an excellent entry point to learn web development and design with simple and easy to tweak themes like [Hugo Xmin](https://github.com/yihui/hugo-xmin) and [Hugo Lithium](https://github.com/yihui/hugo-lithium). 
+- a good looking website out of the box to let users focus on content with themes like [Hugo Apéro](https://github.com/hugo-apero), or
+  
+  <div class="post-img"> 
+    <a href="https://hugo-apero.netlify.app/">
+      <img src="/images/post-images/hugo-apero.png" alt="Hugo Apéro screenshot">
+    </a>
+  </div>
+  
+- an excellent entry point to learn web development and design with simple and easy to tweak themes like [Hugo Xmin](https://github.com/yihui/hugo-xmin) and [Hugo Lithium](https://github.com/yihui/hugo-lithium). 
 
-I chose the latter option as I like to understand what is under the hood. Hugo Apéro was to advanced for my current level, while Hugo Lithium is easy to tweak and build on. I also interested both in content and style, and I'd rather sacrifice a bit of style to be able to learn a play with template and CSS. Actually, I am having so much fun with it that I might start developing my own template from scratch.
+  <div class="post-img"> 
+    <a href="https://github.com/yihui/hugo-lithium">
+      <img src="/images/post-images/hugo-lithium.png" alt="Hugo Lithium screenshot">
+    </a>
+  </div>
+
+<br>
+
+I chose the second option as I like to understand what is under the hood. Hugo Apéro template was too advanced for my current level, while Hugo Lithium is easy to tweak and build on. I am also interested both in content and style, and I'd rather sacrifice a bit of style to be able to learn and play with template and CSS. Actually, I am having so much fun with it that my next goal is to start developing my own template from scratch.
 
 
 
-## Big thanks to the R community 
+## Thank you
 
-I am taking advantage of this first post to give a massive shout-out to the R community. I am particularly grateful for all the awesome tools making code and output more fun, easier to grasp and (most importantly) beautiful.
+I am taking advantage of this first post to give a massive shout-out to the R community. I am particularly grateful for all the awesome tools, all open source, making code and products more fun, easier to grasp and (most importantly) beautiful. 
+
+Thanks to packages developed by Rstudio like `{ggplot}`, `{rmarkdown}`, `{bookdown}` and `{blogdown}` but also so many other less known packages from the R community like `{extrafont}`, `{ggtext}`, R users can produce more than quick and dirty data analysis with stark output figures. Code can be integrated with presenting the result into documents that have nice formatting and good looking illustrations.   
 
 It's hard to compete with office suites and motivate people to learn coding when:
 
 - they are already familiar with spreadsheets and docs (and all the bad habits that come with them), and 
 - basic knowledge of programming language doesn't give much more than very basic and blend illustrations and reports.
 
-Thanks to the Rstudio crew and the larger R community, teaching R and motivating people to learn R with visually pleasing content as become easier, including my own motivation to keep investing my time to learn new ways to use R for making data analysis and products attractive. 
+Thanks to the Rstudio crew and the larger R community, teaching R and motivating people to learn R with visually pleasing content as become easier, including my own motivation to keep investing time to learn new ways to use R for making data analysis and products attractive. 
 
 
+<br>
+
+
+This was my very first post and I just wanted to share my excitement another awesome package! Stay tuned for other posts with more technical content.  
