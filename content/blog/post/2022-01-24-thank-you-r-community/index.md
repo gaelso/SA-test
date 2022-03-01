@@ -17,6 +17,7 @@ tags:
 <span class="first-letter">H</span>i! This is my first blog post on my first website created with the R `{blogdown}` package. I wanted to have my own website for a long time and I finally had a little free time this January (2022) before going back to work. I am fairly good with [`{rmarkdown}`](https://rmarkdown.rstudio.com/) and [`{bookdown}`](https://bookdown.org/yihui/bookdown/) R packages, now is the time to give [`{blogdown}`](https://bookdown.org/yihui/blogdown/) a try!
 
 
+<hr> 
 
 ## {blogdown} with love
 
@@ -56,6 +57,7 @@ Still, most of Alison's post and the blogdown book were very relevant and a good
 I chose the second option as I like to understand what is under the hood. Hugo Apéro template was too advanced for my current level, while Hugo Lithium is easy to tweak and build on. I am also interested both in content and style, and I'd rather sacrifice a bit of style to be able to learn and play with template and CSS. Actually, I am having so much fun with it that my next goal is to start developing my own template from scratch.
 
 
+<hr>
 
 ## Thank you
 
