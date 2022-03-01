@@ -73,7 +73,7 @@ It's hard to compete with office suites and motivate people to learn coding when
 Thanks to the Rstudio crew and the larger R community, teaching R and motivating people to learn R with visually pleasing content as become easier, including my own motivation to keep investing time to learn new ways to use R for making data analysis and products attractive. 
 
 
-<br>
+<hr>
 
 
 This was my very first post and I just wanted to share my excitement another awesome package! Stay tuned for other posts with more technical content.  
