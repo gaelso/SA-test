@@ -33,11 +33,11 @@ blogdown::check_gitignore()
 file.copy("static/images/icon/favicon.ico", "static/favicon.ico", overwrite = T)
 
 
-## Build site to publish on OVH
-to_rm <- list.files("public", full.names = T, recursive = T)
-to_rm
-
-unlink(to_rm, recursive = T)
+## Build site to publish on OVH -> RM public folder content
+# to_rm <- list.files("public", full.names = T, recursive = T)
+# to_rm
+# 
+# unlink(to_rm, recursive = T)
 
 blogdown::build_site(local = F)
 
