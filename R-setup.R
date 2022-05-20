@@ -45,5 +45,5 @@ blogdown::build_site(local = F)
 ## Add posts 
 blogdown::new_post(title = "Thank you R community", subdir = "blog/post/", date = "2022-01-24")
 
-
+blogdown::new_post(title = "Test bookdown", subdir = "blog/post/", date = "2022-03-11")
 
